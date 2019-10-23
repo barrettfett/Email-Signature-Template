@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>J Barrett | Email Signature (Business Card) </title>  
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+     <style>
+       .main {
+         display: grid;
+         margin: auto;
+         grid-template-columns: repeat(2, 1fr);
+         width: 500px;
+         border: 1px dashed grey;
+       }
+
+       .company {
+        width: 30%;
+       }
+ 
+       .logo{
+         grid-column: 1 / span 1;
+         margin: 1em;
+         width: 10vw;
+         padding-right: 1.5em;
+         border-right: 1px solid red;
+       }
+
+       .details {
+         grid-column: 2 / span 1;
+         width: 70%;
+         line-height: 0.4em;
+         justify-content: start;
+         align-items: center;
+         margin: auto 0;
+       }
+
+       .social {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         justify-content: start;
+       }
+
+     </style> 
+
+  </head>
+  <body>
+    <div class="main">
+
+      <div class="company">
+        <img class="logo" src="https://www.shotokan.club/images/karate_logo.png" alt="Company Logo">  
+      </div>
+
+      <div class="details">
+        <h3>Website Developer</h3>
+        <h3>Bethpage Shotokan</h3>
+        <h4>Traditional Karate Club</h4>
+        <h4>Call: 555-555-5555</h4>
+        <h5>Visit us on social media:</h5>
+          <div class="social">
+            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+          </div>     
+      </div>  
+
+    </div>
+  </body>
+</html>
